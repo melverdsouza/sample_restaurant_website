@@ -82,6 +82,48 @@
 
 .second-sec-links {
     display: flex;
-    
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 40%;
+    justify-content: space-between;
 }
 
+.reservation {
+    font-size: 18px;
+    width: 35%;
+    padding: 2%;
+    color: orange;
+    border: 1px solid black;
+    
+    text-align: center;
+    background-color: transparent;
+}
+.watch-our-story {
+    font-size: 16px;
+    width: 35%;
+    padding: 2%;
+    color: orange;
+    border: 1px solid black;
+    
+    background-color: transparent;
+}
+.fa-long-arrow-right {
+    padding: 0% 8%;
+    border-radius: 50%;
+    border-color: orange;
+    color: orange;
+}
+
+.fa-play {
+    padding: 0% 8%;
+    color: orange;
+}
+
+.reservation:hover {
+    color: white;
+    background-color: black;
+}
+.watch-our-story:hover {
+    color: white;
+    background-color: black;
+}
