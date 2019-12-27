@@ -20,6 +20,7 @@
     margin-left: 3%;
     width: 50%;
     justify-content: space-around;
+    font-size: 18px;
 }
 .all-links a {
     text-decoration: none;
@@ -84,7 +85,7 @@
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
-    width: 40%;
+    width: 35%;
     justify-content: space-between;
 }
 
@@ -93,7 +94,8 @@
     width: 35%;
     padding: 2%;
     color: orange;
-    border: 1px solid black;
+    border: 3px solid orange;
+    border-radius: 25px;
     
     text-align: center;
     background-color: transparent;
@@ -103,8 +105,8 @@
     width: 35%;
     padding: 2%;
     color: orange;
-    border: 1px solid black;
-    
+    border: 3px solid orange;
+    border-radius: 25px;    
     background-color: transparent;
 }
 .fa-long-arrow-right {
@@ -122,8 +124,36 @@
 .reservation:hover {
     color: white;
     background-color: black;
+    border-color: black;
 }
 .watch-our-story:hover {
     color: white;
     background-color: black;
+    border-color: black;
+}
+.popular-dishes {
+    font-size: 17px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.exclusive-item {
+    font-size: 41px;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-weight: bold;
+}
+.read-more-full {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.read-more-heading {
+    font-weight: bold;
+    padding-top: 4%;
+    font-size: 24px;
+}
+.read-more-text {
+    padding-top: 3%;
+    width: 33%;
 }
