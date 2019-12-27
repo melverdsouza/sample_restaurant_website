@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+}
+#logo {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.header {
+    display: flex;
+}
+
+.all-links {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 3%;
+    width: 50%;
+    justify-content: space-around;
+}
+.all-links a {
+    text-decoration: none;
+    color: black;
+}
+.all-links a:hover {
+    color: orange;
+}
+.blog-sub-links {
+    display: none;
+}
+
+.blog-dropdown:hover {
+    color: orange;
+    display: block;
+}
+
+.book-table {
+    background-color: black;
+    color: orange;
+    border-radius: 25px;
+    margin-top: 6%;
+    margin-left: 8%;
+    width: 10%;
+    padding: 1%;
+    height: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.book-table:hover {
+    background-color: orange;
+    color: white;
+}
+
