@@ -144,16 +144,42 @@
     font-weight: bold;
 }
 .read-more-full {
-    padding-left: 10%;
-    padding-top: 5%;
+    margin-left: 4%;
+    margin-top: 5%;
+    height: 610px;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.food-pic {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    max-width: 425px;
+    height: 350px; 
+}
+.first {
+    margin-left: 7%;
 }
 
 .read-more-heading {
     font-weight: bold;
-    padding-top: 4%;
-    font-size: 24px;
+    padding-top: 8%;
+    padding-left: 10%;
+    font-size: 35px;
 }
+
 .read-more-text {
     padding-top: 3%;
-    width: 33%;
+    width: 100%;
+    font-size: 20px;
+    width: 90%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.read-more-sec {
+    display: flex;
+}
+.read-more-full:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
