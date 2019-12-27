@@ -1,13 +1,17 @@
 * {
     margin: 0%;
 }
+
 #logo {
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 .header {
     display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .all-links {
@@ -49,5 +53,35 @@
 .book-table:hover {
     background-color: orange;
     color: white;
+}
+
+.intro-hilight {
+    color: orange;
+    font-family: 'Ma Shan Zheng', cursive;
+    padding-top: 20%;
+    font-size: 200%;
+    padding-left: 10%;
+}
+
+.hilight-text {
+    font-size: 290%;
+    padding-top: 3%;
+    padding-left: 10%;
+    width: 45%;
+}
+.hilight-subtext {
+    font-size: 1em;
+}
+
+.hilight-subtext {
+    font-size: 120%;
+    width: 45%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.second-sec-links {
+    display: flex;
+    
 }
 
