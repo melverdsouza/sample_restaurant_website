@@ -185,15 +185,49 @@
 }
 .read-more {
     background-color: white;
-    color: orange;
-    font-size: 24px;
+    color: gray;
+    text-decoration: underline;
+    font-size: 20px;
     border: none;
-    text-decoration: none;    
     margin-left: 10%;
+}
+.read-more:hover {
+    color: orange;
 }
 .read-more-link {
     margin-top: 15%;
 }
 .second {
     margin-top: 5%;
+}
+
+.our-history {
+    font-size: 22px;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.history-tag {
+    font-size: 41px;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-weight: bold;
+    width: 55%;
+}
+.tagline {
+    color: orange;
+    font-size: 26px;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.third-sec-text {
+    width: 65%;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 17px;
+    color: gray;
+}
+.third-section {
+    padding-left: 45%;
 }
