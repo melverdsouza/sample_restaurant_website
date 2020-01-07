@@ -252,7 +252,30 @@
 }
 
 .read-more-third:hover {
-    color: gray;
+    color: #FF8C00;
     text-decoration: underline;
     font-weight: bold;
+}
+.fourth-section {
+    background-image: url('images/background.png');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+
+.fourth-heading {
+    font-size: 30px;
+    color: white;
+    padding-top: 7%;
+    padding-left: 35%;
+    font-size: 4em;
+}
+
+.video {
+    margin-left: 45%;
+    margin-top: 5%;
+    padding: 3%;
+    font-size: 60px;
+    border-radius: 75px;
+    border: none;
 }
