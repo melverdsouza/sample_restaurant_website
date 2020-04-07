@@ -1,281 +1,302 @@
 * {
-    margin: 0%;
+  margin: 0%;
 }
 
 #logo {
-    margin-top: 3%;
-    margin-left: 7%;
+  margin-top: 3%;
+  margin-left: 7%;
 }
 
 .header {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    background-color: white;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .all-links {
-    display: flex;
-    margin-top: 7%;
-    margin-left: 3%;
-    width: 50%;
-    justify-content: space-around;
-    font-size: 18px;
+  display: flex;
+  margin-top: 7%;
+  margin-left: 3%;
+  width: 50%;
+  justify-content: space-around;
+  font-size: 18px;
 }
 .all-links a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .all-links a:hover {
-    color: orange;
+  color: orange;
 }
 
 .button {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .button:hover {
-    color: orange;
+  color: orange;
 }
 
-
 .fa-caret-down {
-    padding-left: 15%;
+  padding-left: 15%;
 }
 
 .book-table {
-    background-color: black;
-    color: orange;
-    border-radius: 25px;
-    margin-top: 6%;
-    margin-left: 8%;
-    width: 10%;
-    padding: 1%;
-    height: 1.1em;
-    font-weight: bold;
-    text-align: center;
+  background-color: black;
+  color: orange;
+  border-radius: 25px;
+  margin-top: 6%;
+  margin-left: 8%;
+  width: 10%;
+  padding: 1%;
+  height: 1.1em;
+  font-weight: bold;
+  text-align: center;
 }
 .blog-sub-links {
-    display: none;
+  display: none;
 }
 
 .book-table:hover {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
 
 .intro-hilight {
-    color: orange;
-    font-family: 'Ma Shan Zheng', cursive;
-    padding-top: 20%;
-    font-size: 200%;
-    padding-left: 10%;
+  color: orange;
+  font-family: "Ma Shan Zheng", cursive;
+  padding-top: 20%;
+  font-size: 200%;
+  padding-left: 10%;
 }
 
 .hilight-text {
-    font-size: 290%;
-    padding-top: 3%;
-    padding-left: 10%;
-    width: 45%;
+  font-size: 290%;
+  padding-top: 3%;
+  padding-left: 10%;
+  width: 45%;
 }
 .hilight-subtext {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .hilight-subtext {
-    font-size: 120%;
-    width: 45%;
-    padding-left: 10%;
-    padding-top: 3%;
+  font-size: 120%;
+  width: 45%;
+  padding-left: 10%;
+  padding-top: 3%;
 }
 
 .second-sec-links {
-    display: flex;
-    margin-left: 10%;
-    margin-top: 3%;
-    width: 35%;
-    justify-content: space-between;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 35%;
+  justify-content: space-between;
 }
 
 .reservation {
-    font-size: 18px;
-    width: 35%;
-    padding: 2%;
-    color: orange;
-    border: 3px solid orange;
-    border-radius: 25px;
-    text-align: center;
-    background-color: transparent;
+  font-size: 18px;
+  width: 35%;
+  padding: 2%;
+  color: orange;
+  border: 3px solid orange;
+  border-radius: 25px;
+  text-align: center;
+  background-color: transparent;
 }
 .watch-our-story {
-    font-size: 16px;
-    width: 35%;
-    padding: 2%;
-    color: orange;
-    border: 3px solid orange;
-    border-radius: 25px;    
-    background-color: transparent;
+  font-size: 16px;
+  width: 35%;
+  padding: 2%;
+  color: orange;
+  border: 3px solid orange;
+  border-radius: 25px;
+  background-color: transparent;
 }
 .fa-long-arrow-right {
-    padding: 0% 8%;
-    border-radius: 50%;
-    border-color: orange;
-    color: orange;
+  padding: 0% 8%;
+  border-radius: 50%;
+  border-color: orange;
+  color: orange;
 }
 
 .fa-play {
-    padding: 0% 8%;
-    color: orange;
+  padding: 0% 8%;
+  color: orange;
 }
 
 .reservation:hover {
-    color: white;
-    background-color: black;
-    border-color: black;
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 .watch-our-story:hover {
-    color: white;
-    background-color: black;
-    border-color: black;
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 .popular-dishes {
-    font-size: 17px;
-    padding-top: 10%;
-    padding-left: 10%;
+  font-size: 17px;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
 .exclusive-item {
-    font-size: 41px;
-    padding-top: 2%;
-    padding-left: 10%;
-    font-weight: bold;
+  font-size: 41px;
+  padding-top: 2%;
+  padding-left: 10%;
+  font-weight: bold;
 }
 .read-more-full {
-    margin-left: 4%;
-    margin-top: 5%;
-    height: 610px;
-    width: 25%;
-    border: 1px solid gray;
-    border-radius: 25px;
+  margin-left: 4%;
+  margin-top: 5%;
+  height: 610px;
+  width: 25%;
+  border: 1px solid gray;
+  border-radius: 25px;
 }
 .food-pic {
-    border-radius: 25px 25px 0px 0px;
-    width: 100%;
-    max-width: 425px;
-    height: 350px; 
+  border-radius: 25px 25px 0px 0px;
+  width: 100%;
+  max-width: 425px;
+  height: 350px;
 }
 .first {
-    margin-left: 7%;
+  margin-left: 7%;
 }
 
 .read-more-heading {
-    font-weight: bold;
-    padding-top: 8%;
-    padding-left: 10%;
-    font-size: 35px;
+  font-weight: bold;
+  padding-top: 8%;
+  padding-left: 10%;
+  font-size: 35px;
 }
 
 .read-more-text {
-    padding-top: 3%;
-    width: 100%;
-    font-size: 20px;
-    width: 90%;
-    padding-top: 10%;
-    padding-left: 10%;
+  padding-top: 3%;
+  width: 100%;
+  font-size: 20px;
+  width: 90%;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
 .read-more-sec {
-    display: flex;
+  display: flex;
 }
 .read-more-full:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .read-more {
-    background-color: white;
-    color: gray;
-    text-decoration: underline;
-    font-size: 20px;
-    border: none;
-    margin-left: 10%;
+  background-color: white;
+  color: gray;
+  text-decoration: underline;
+  font-size: 20px;
+  border: none;
+  margin-left: 10%;
 }
 .read-more:hover {
-    color: orange;
+  color: orange;
 }
 .read-more-link {
-    margin-top: 15%;
+  margin-top: 15%;
 }
 .second {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .our-history {
-    font-size: 22px;
-    padding-top: 15%;
-    padding-left: 10%;
+  font-size: 22px;
+  padding-top: 15%;
+  padding-left: 10%;
 }
 
 .history-tag {
-    font-size: 41px;
-    padding-top: 5%;
-    padding-left: 10%;
-    font-weight: bold;
-    width: 55%;
+  font-size: 41px;
+  padding-top: 5%;
+  padding-left: 10%;
+  font-weight: bold;
+  width: 55%;
 }
 .tagline {
-    color: orange;
-    font-size: 26px;
-    padding-left: 10%;
-    padding-top: 2%;
+  color: orange;
+  font-size: 26px;
+  padding-left: 10%;
+  padding-top: 2%;
 }
 
 .third-sec-text {
-    width: 65%;
-    padding-left: 10%;
-    padding-top: 3%;
-    font-size: 17px;
-    color: gray;
+  width: 65%;
+  padding-left: 10%;
+  padding-top: 3%;
+  font-size: 17px;
+  color: gray;
 }
 .third-section {
-    padding-left: 45%;
+  padding-left: 45%;
 }
 
 .read-more-third {
-    font-size: 18px;
-    width: 25%;
-    color: orange;
-    border-radius: 25px;
-    text-align: left;
-    background-color: transparent;
-    border: none;
-    margin-top: 5%;
-    margin-left: 10%;
+  font-size: 18px;
+  width: 25%;
+  color: orange;
+  border-radius: 25px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .read-more-third:hover {
-    color: #FF8C00;
-    text-decoration: underline;
-    font-weight: bold;
+  color: #ff8c00;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .fourth-section {
-    background-image: url('images/background.png');
-    height: 500px;
-    width: 100%;
-    background-position: center;
+  background-image: url("images/background.png");
+  height: 500px;
+  width: 100%;
+  background-position: center;
 }
 
 .fourth-heading {
-    font-size: 30px;
-    color: white;
-    padding-top: 7%;
-    padding-left: 35%;
-    font-size: 4em;
+  font-size: 30px;
+  color: white;
+  padding-top: 7%;
+  padding-left: 35%;
+  font-size: 4em;
 }
 
 .video {
-    margin-left: 45%;
-    margin-top: 5%;
-    padding: 3%;
-    font-size: 60px;
-    border-radius: 75px;
-    border: none;
+  margin-left: 45%;
+  margin-top: 5%;
+  padding: 1%;
+  font-size: 60px;
+  border-radius: 75px;
+  border: none;
+}
+.fifth-section {
+  height: 600px;
+  background-color: blanchedalmond;
+}
+
+.popular {
+  font-size: 16px;
+  color: gray;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.food-menu {
+  font-size: 38px;
+  padding-left: 5%;
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+footer {
+  display: none;
 }
